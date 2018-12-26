@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<log> 
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 14:20:56</s-time>  
+    <e-time>2018-12-21 14:20:59</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>register</name>  
+    <s-time>2018-12-21 20:29:50</s-time>  
+    <e-time>2018-12-21 20:29:50</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 20:30:40</s-time>  
+    <e-time>2018-12-21 20:30:40</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 20:31:04</s-time>  
+    <e-time>2018-12-21 20:31:04</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 20:35:34</s-time>  
+    <e-time>2018-12-21 20:35:37</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 20:48:12</s-time>  
+    <e-time>2018-12-21 20:48:15</e-time>  
+    <result>success</result> 
+  </action>  
+  <action> 
+    <name>login</name>  
+    <s-time>2018-12-21 20:48:22</s-time>  
+    <e-time>2018-12-21 20:48:25</e-time>  
+    <result>failure</result> 
+  </action>  
+  <action>
+    <name>register</name>
+    <s-time>2018-12-21 20:48:38</s-time>
+    <e-time>2018-12-21 20:48:41</e-time>
+    <result>success</result>
+  </action>
+</log>
