@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/2002/xmlspec/dtd/2.10/xmlspec.dtd">
+<sc-configuration>
+	<interceptor name= "log" class = "water.ustc.interceptor.LogInterceptor"
+		predo = "preAction" afterdo = "afterAction">
+	</interceptor>
+	<!-- some interceptors -->
+	<controller>
+		<action name = "login" class = "water.ustc.action.LoginAction" method = "handleLogin">
+			<interceptor_ref name="log"></interceptor_ref>
+			<result name="success" type="foward" value="success_view.xml"></result>
+            <result name="failure" type="redirect" value="failure.jsp"></result>
+			<!-- some result -->
+		</action>
+			
+		<action name="register" class="water.ustc.action.RegisterAction"  method = "handleRegister">
+            <interceptor_ref name="log"></interceptor_ref>
+            <result name="success" type="foward" value="welcome.jsp"></result>
+            <result name="failure" type="redirect" value="regfailure.jsp"></result>
+            <!-- some result -->
+        </action>
+		<action name = "logout" class = "water.ustc.action.LogoutAction" method = "handleLogout">
+			<interceptor_ref name="log"></interceptor_ref>
+			<result name="success" type="foward" value="welcome.jsp"></result>
+            <result name="failure" type="redirect" value="failure.jsp"></result>
+			<!-- some result -->
+		</action>
+	 
+	</controller>
+</sc-configuration>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view>
+	<header>
+		<title>a viewer in MVC</title>
+	</header>
+	<body>
+		<form>
+			<name>logout</name>
+			<action>logout.sc</action>
+			<method>post</method>
+			<textview>
+				<name>userName</name>
+				<label>Login Name:</label>
+				<value>Water</value>
+			</textview>
+			<textview>
+				<name>userAge</name>		
+				<label>Age</label>
+				<value>30</value>
+			</textview>
+			<buttonView>
+				<name>logoutButton</name>
+				<value>Logout</value>
+				<type>submit</type>
+			</buttonView>
+		</form>
+	</body>
+</view>
