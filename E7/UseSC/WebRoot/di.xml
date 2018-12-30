@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sc-di>
+	<bean id="ub" class="UserBean">
+	</bean>
+	<bean id="loginAction"  class = "LoginAction">
+		<field name = "water.ustc.action.UserBean" bean-ref="ub"></field>
+	</bean>
+	<bean id="logoutAction"  class = "LogoutAction">
+		<field name = "water.ustc.action.UserBean" bean-ref="ub"></field>
+	</bean>
+	<bean id="showAction"  class = "ShowAction">
+		<field name = "water.ustc.action.UserBean" bean-ref="ub"></field>
+	</bean>
+		<bean id="registerAction"  class = "RegisterAction">
+		<field name = "water.ustc.action.UserBean" bean-ref="ub"></field>
+		<field name = "water.ustc.action.UserInform" bean-ref="um"></field>
+	</bean>
+</sc-di>
